@@ -48,7 +48,7 @@ function copyIP() {
     element.style.opacity = "0";
 
     setTimeout(_ => {
-        element.innerText = "Скопировано!"
+        element.innerText = "Copied!"
         element.style.opacity = "1";
     }, 100);
 
